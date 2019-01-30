@@ -298,7 +298,7 @@ h2 {
 }
 
 
-.card, .card-header {
+.turquoise {
 	border-color: #25c8e7;
 }
 
@@ -310,6 +310,17 @@ h2 {
 }
 
 
+/*
+*
+*
+* CONTATOS
+*
+*/
+
+
+.form {
+	margin-bottom: 2em;
+}
 
 
 
