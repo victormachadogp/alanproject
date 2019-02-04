@@ -58,10 +58,14 @@
 
 /*Main*/
 
+
 .box1 {
 	position: relative;
 }
 
+.margin-bottom {
+	margin-bottom: 1em;
+}
 
 .inside-box {
 	position: absolute;
@@ -280,7 +284,6 @@ h5 {
 
 h2 {
 	font-size: 2.5em;
-	border-bottom: 2px solid #ccc;
 	color: #333;
 	margin-top: .5em;
 
