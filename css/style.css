@@ -116,6 +116,10 @@
 	padding-bottom: 2rem;
 }
 
+.padding-low {
+	padding-bottom: 1em;
+}
+
 .welcome {
 	width: 75%;
 	margin: 0 auto;
@@ -165,6 +169,14 @@ hr.light {
 	width: 90%;
 	margin-top: .8rem;
 	margin-bottom: 1rem;
+}
+
+.email {
+	font-size: 1.5em;
+}
+
+.number {
+	font-size: 1.4em;
 }
 
 .fa-whatsapp {
@@ -294,6 +306,9 @@ h2 {
 	background-color: #41D0FC;
 }
 
+.title {
+	font-size: 1.6em;
+}
 
 .aulas {
 	margin-top: 2em;
