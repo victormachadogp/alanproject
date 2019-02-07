@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
+
+
+
 * {
-	/*font-family: "poppins", sans-serif;*/
+	--theme-color: #3fa9f5;
 }
 
 .main-banner{
 	background-image: url('../images/banner.jpg');
 	background-size: cover;
-
+}
+.banner-polygon{
+	fill: var(--theme-color);
 }
 .navbar-brand {
 	font-size: 1.4em;
@@ -52,7 +57,7 @@
 }
 
 .navbar {
-	background-color: #3fa9f5 !important;
+	background-color: var(--theme-color) !important;
 	color: white;
 }
 
