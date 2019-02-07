@@ -117,7 +117,15 @@
 }
 
 
+.section-bg {
+	background-image: url('../images/section-bg.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+.cursos-section{
+	background-color: var(--theme-color);
+}
 
 
 .jumbotron {
@@ -172,7 +180,7 @@
 /*Footer*/
 
 footer {
-	background-color: #25c8e7;
+	background-color: var(--theme-color);
 	color: white;
 	padding-top: 2rem;
 	/*margin-top: 2em;*/
