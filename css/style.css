@@ -4,6 +4,11 @@
 	/*font-family: "poppins", sans-serif;*/
 }
 
+.main-banner{
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+
+}
 .navbar-brand {
 	font-size: 1.4em;
 }
@@ -47,7 +52,7 @@
 }
 
 .navbar {
-	background-color: #41D0FC !important;
+	background-color: #3fa9f5 !important;
 	color: white;
 }
 
