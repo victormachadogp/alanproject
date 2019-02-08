@@ -2,19 +2,39 @@
 
 
 
-
+/* #3eebf5 */
 * {
 	/* Project Color Palete */
-	--theme-color: #3fa9f5;
+	--theme-color: #3fa9f5;                           
 	--primary: #1976D2;
 	--secondary: #424242;
 	--accent: #82B1FF;
 }
 
+
+
 .main-banner{
+	background-image: url('../images/notebook.jpg');
+	background-size: cover;
+}
+
+
+.main-banner2{
+	background-image: url('../images/mesa.jpg');
+	background-size: cover;
+}
+
+.main-banner3{
 	background-image: url('../images/banner.jpg');
 	background-size: cover;
 }
+
+.carousel-second {
+	/* color: #3fa9f5 ;s */
+	text-shadow: 2px 2px black;
+}
+
+
 .banner-polygon{
 	fill: var(--theme-color);
 }
@@ -92,8 +112,8 @@
 }
 
 .btn-primary {
-	background-color: #25c8e7 !important;
-	border-color: #25c8e7;
+	background-color: #3fa9f5 !important;
+	border-color: #3fa9f5;
 }
 
 .btn-primary:hover {
@@ -102,6 +122,9 @@
 	color: #25c8e7;
 }
 
+.esse {
+	margin-right: 16px;
+}
 
 .btn-outline-light {
 	background-color: transparent !important;
@@ -219,7 +242,7 @@ h5 {
 	font-weight: ;
 }
 
-
+/* Media Queries */
 
 @media (max-width: 992px) {
 	.social a {
@@ -246,6 +269,8 @@ h5 {
 }
 
 
+
+
 @media (min-width: 992px) {
 
 	footer {
@@ -259,14 +284,30 @@ h5 {
 	.carousel-caption {
 	position: absolute;
 	top: 50%;
+	transform: translateY(-80%);
+	color: 	white;
+}
+
+
+}
+
+@media (min-width: 940px) {
+
+	.carousel-caption {
+	position: absolute;
+	top: 50%;
+	right: 50%;
 	transform: translateY(-50%);
+	color: white;
 }
-
+	.title-caption {
+		font-size: 6.5em;
+		font-weight: 400;
+		text-shadow: 4px 4px 10px black ;
+		padding-bottom: 50px;
+	}
 
 }
-
-
-
 
 
 @media (max-width: 768px) {
@@ -274,28 +315,23 @@ h5 {
 .inside-box {
 	position: absolute;
 	/*top: 50%;*/
-	/*left: 50%;*/
-	/*transform: translate(-50%, -50%);*/
+	/* left: 50%; */
+	/* transform: translate(-50%, -50%); */
 	text-shadow: 1px 1px 10px #000;
 	font-family: poppins;
 }
  h1 {
- 	font-size: 2em !important;
+ 	font-size: 3em !important;
  	padding-bottom: 0;
  	text-shadow: 1px 1px 10px #000;
  	font-family: roboto;
  	padding: .2em;
  }
 
- .btn-lg {
- 	/*font-size: 13px;*/
+ .sumir-btn {
+	 display: none;
  }
 
-
-
-}
-
-@media (max-width: 576px) {
 
 
 
