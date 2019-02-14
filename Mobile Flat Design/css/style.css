@@ -3,12 +3,21 @@
 * {
 	/*font-family: "poppins", sans-serif;*/
 	--theme-color: #0099ff;
+	--font-color:  #5a5a5a;
 }
 
 
 
 .navbar-brand {
 	font-size: 1.4em;
+}
+
+/* Button Toggler Color */
+.custom-toggler.navbar-toggler {
+    border-color: #fff;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar {
@@ -30,11 +39,19 @@
 }
 
 .viva-header {
-	font-size: .9em;
+	font-size: .7em;
 }
 
 .image-header {
 	margin: .1em;
+}
+
+.padding-header {
+	padding-bottom: .3em;
+}
+
+.line-header {
+	vertical-align: baseline;
 }
 
 
@@ -56,7 +73,7 @@
 }
 
 .navbar-light .navbar-toggler {
-	border-color: #3fa9f5;
+	border-color: #0099ff;
 }
 
 
@@ -65,6 +82,15 @@
 .grad {
 	background-image: linear-gradient(#0099ff, #00e6ff);
 	/* background-image: linear-gradient(red, yellow); */
+  }
+
+.decoration {
+	color: var(--font-color) !important;
+	
+}
+
+  .decoration:hover {
+	  text-decoration: none;
   }
 
 
@@ -85,10 +111,11 @@
 }
 
 h1 {
-	font-size: 2.8em;
-	padding:.5em;
+	font-size: 2.3em;
+	margin: 1em;
+	margin-bottom: 1.5em;
 	font-family: roboto;
-	color: #5a5a5a;
+	color: var(--font-color) !important;
 }
 
 
@@ -98,14 +125,16 @@ h4 {
 }
 
 .para {
-	font-size: 1.32em;
-	margin: 1.9em;
+	font-size: 1.1em;
 	position: absolute;
-	top: 0%;
+	top: 35%;
+	left: 35%;
+	transform: translate(-35%, -35%);
+	font-family: 'open sans';
 }
 
 .image-background {
-	opacity:  .3;
+	opacity:  .2;
 }
 
 .image-happy {
@@ -123,25 +152,31 @@ h4 {
 	background-color: #0099ff;
 }
 
+.card {
+	padding: 0px !important;
+}
+
 
 
 .cursos {
-	padding-top: .6em;
+	margin-top: .5em;
 	font-size: 2.5em;
+	font-family: 'open sans';
+	font-weight: 600;
 }
 
 .card-outros {
-	border: 2px solid #3fa9f5 !important;
+	border: 2px solid #0099ff !important;
 	border-radius: 20px;
 }
 
 .card-empresa {
-	border: 2px solid #3fa9f5;
+	border: 2px solid #0099ff;
 	border-radius: 20px;
 }
 
 .card-online {
-	border: 2px solid #3fa9f5 !important;
+	border: 2px solid #0099ff !important;
 	border-radius: 20px;
 }
 
@@ -247,13 +282,17 @@ hr {
 /*Footer*/
 
 footer {
-	color: red #5a5a5a;
+	'color': var(--font-color) !important;
 	padding-top: 2rem;
 	margin-bottom: 2em;
 }
 
+.padding-cursos {
+	padding-bottom	: 1em;
+}
+
 .font-color {
-	color: #5a5a5a !important;
+	color: var(--font-color) !important;
 }
 
 .text-position {
@@ -266,7 +305,7 @@ footer {
 }
 
 .padding-footer {
-	margin-left: 3em;
+	margin-left: 1em;
 	font-family: roboto;
 }
 
@@ -396,7 +435,6 @@ h5 {
 
 
 .card, .card-header {
-	border-color: #25c8e7;
 }
 
 @media (max-width: 992px) {
