@@ -6,6 +6,9 @@
 	--font-color:  #5a5a5a;
 }
 
+body {
+	background-image: linear-gradient(#0099ff, #00e6ff);
+}
 
 
 .navbar-brand {
@@ -79,10 +82,6 @@
 
 /*Main*/
 
-.grad {
-	background-image: linear-gradient(#0099ff, #00e6ff);
-	/* background-image: linear-gradient(red, yellow); */
-  }
 
 .decoration {
 	color: var(--font-color) !important;
@@ -99,12 +98,8 @@
 
 .background {
 	background-color: var(--theme-color) !important;                    
-	font-family: ;
 }
 
-.background-content {
-	background-color: #3fa9f5;
-}
 
 .padding-all {
 	padding: 1em;
@@ -150,9 +145,6 @@ h4 {
 	margin-top: 3em;
 }
 
-.cursos-background { 
-	background-color: #0099ff;
-}
 
 .card {
 	padding: 0px !important;
@@ -308,9 +300,11 @@ hr {
 /*Footer*/
 
 footer {
-	'color': var(--font-color) !important;
+	/* color: var(--font-color) !important; */
+	background-image: url('../images/footer-shape.svg');
+	
+	background-repeat: no-repeat;
 	padding-top: 2rem;
-	margin-bottom: 2em;
 }
 
 .padding-cursos {
@@ -330,10 +324,6 @@ footer {
 	font-size: 1.2em;
 }
 
-.padding-footer {
-	margin-left: 1em;
-	font-family: roboto;
-}
 
 .padding-viva {
 	margin-top: 1em;
@@ -396,7 +386,7 @@ footer {
 }
 
 h5 {
-	font-weight: ;
+	/* font-weight: ;S */
 }
 
 
@@ -418,12 +408,6 @@ h5 {
 
 
 }
-
-
-}
-
-
-
 
 
 @media (max-width: 768px) {
