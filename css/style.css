@@ -6,6 +6,14 @@
 	--font-color:  #5a5a5a;
 }
 
+body {
+	background-image: linear-gradient(#0099ff, #00e6ff);
+}
+
+.background-white {
+	background-color: white;
+	padding-bottom: 3em;
+}
 
 
 .navbar-brand {
@@ -44,6 +52,7 @@
 
 .image-header {
 	margin: .1em;
+	filter: invert(99%) sepia(1%) saturate(2058%) hue-rotate(338deg) brightness(114%) contrast(100%);
 }
 
 .padding-header {
@@ -147,7 +156,7 @@ h4 {
 	background-color:#fcfcfc;
 	padding-bottom: 4em;
 	
-	margin-top: 3em;
+	/* margin-top: 3em; */
 }
 
 .cursos-background { 
@@ -311,6 +320,7 @@ footer {
 	'color': var(--font-color) !important;
 	padding-top: 2rem;
 	margin-bottom: 2em;
+	background-color: white;
 }
 
 .padding-cursos {
@@ -324,6 +334,17 @@ footer {
 .text-position {
 	margin-left: 28%;
 	font-family: roboto;
+}
+
+.svg-color {
+		width: 40px;
+		height: 40px;
+		background: url('../images/open-book.svg');
+		fill: var(--theme-color);
+}
+
+.svg-color-2 {
+	filter: invert(45%) sepia(98%) saturate(3069%) hue-rotate(183deg) brightness(104%) contrast(103%);
 }
 
 .font-footer {
