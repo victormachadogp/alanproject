@@ -54,6 +54,10 @@ body {
 	padding-bottom: .3em;
 }
 
+.image-woman {
+	margin-bottom: 3em;
+}
+
 .line-header {
 	vertical-align: baseline;
 }
@@ -137,17 +141,19 @@ h4 {
 
 .image-background {
 	opacity:  .2;
+	position: relative;
 }
 
 .image-happy {
-	position: relative;
+	/* position: relative; */
 }
 
 .color-background {
 	background-color:#fcfcfc;
-	padding-bottom: 4em;
+	padding-bottom: 3.5em;
 	
-	margin-top: 3em;
+	
+
 }
 
 
@@ -282,6 +288,10 @@ hr {
 	background-color: black;
 }
 
+.contacts {
+	margin-left: 9%;
+}
+
 
 /*      Contact            */
 
@@ -289,6 +299,7 @@ hr {
 .footer-banner {
 	background-image: url('../images/footer-shape.svg');
 	background-size: cover;
+
 }
 
 .comece-position {
@@ -310,6 +321,8 @@ footer {
 	
 	background-repeat: no-repeat;
 	padding-top: 2rem;
+	padding: 1em;
+	margin-bottom: 1em;
 }
 
 
