@@ -165,7 +165,8 @@ h4 {
 .keep-2 {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 2em !important;
+	padding-top: 4em;
+	padding-bottom: 4em;
 
 }
 
@@ -212,7 +213,7 @@ align-title {
 }
 
 .background-color-white-2 {
-	background-color:#fcfcfc;
+	background-color:#f2f2f2;
 }
 
 
@@ -538,6 +539,7 @@ h5 {
 	.image-woman {
 		padding-top: 3em;
 	}
+
 
 	.viva-header {
 		font-size: 1.1em;
