@@ -38,16 +38,19 @@ body {
 
 .nav-link {
 	font-size: 1.1em !important;
-	font-family: poppins;
+	font-family: 'open sans';
 }
 
 .viva-header {
 	font-size: .7em;
+	vertical-align: baseline;
 }
 
 .image-header {
 	margin: .1em;
 	filter: invert(99%) sepia(1%) saturate(2058%) hue-rotate(338deg) brightness(114%) contrast(100%);
+	width: 30px;
+	height: 30px;
 }
 
 .padding-header {
@@ -58,10 +61,6 @@ body {
 	margin-bottom: 3em;
 }
 
-.line-header {
-	vertical-align: baseline;
-}
-
 
 .nav-link{
 	color: white !important;
@@ -70,7 +69,8 @@ body {
 
 .nav-item {
 	color: white;
-	font-size: 1.1em;
+	/* font-size: 1.1em; */
+	font-weight: 300;
 }
 
 
@@ -115,11 +115,16 @@ body {
 }
 
 h1 {
-	font-size: 2.3em;
+	font-size: 2.4em;
 	margin: 1em;
 	margin-bottom: 1.5em;
-	font-family: roboto;
+	font-family: 'open sans';
+		font-weight: 600;
 	color: var(--font-color) !important;
+}
+
+.bolder-text {
+	font-weight: 500;
 }
 
 
@@ -136,29 +141,104 @@ h4 {
 	left: 15%;
 	transform: translate(-10%, -10%);
 	font-family: 'open sans';
-	line-height: 1.9;
+	/* line-height: 1.9; */
+}
+
+.paragraph-desktop {
+	font-size: 1.4em;
+	vertical-align: middle;
+	font-family: 'open sans';
+	margin-left:  1em;
+	/* padding- 2em; */
+}
+
+
+.desktop-jumbo {
+	background-color: #f2f2f2 !important;
+}
+
+
+.keep {
+	display: flex;
+}
+
+.keep-2 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2em !important;
+
+}
+
+
+.item {
+	align-self: center;
+}
+
+.item-2 {
+	padding: .6em;
+	padding-left: 1.7em;
+	padding-right: 1.7em;
+	font-size: 1.3em;
+	border-radius: 30px;
+	align-self: center;
+	margin-left: 1em;
+}
+
+
+align-title {
+	vertical-align: middle;
 }
 
 .image-background {
 	opacity:  .2;
 	position: relative;
+	left: 48%;
 }
+
+.image-background-2 {
+	height: 358px;
+	padding: .8em 0em 0em;
+}
+
 
 .image-happy {
 	/* position: relative; */
+	overflow: hidden;
 }
 
-.color-background {
+.background-color-white {
 	background-color:#fcfcfc;
-	padding-bottom: 3.5em;
-	
-	
+	padding-bottom: 1em;
+}
 
+.background-color-white-2 {
+	background-color:#fcfcfc;
 }
 
 
 .card {
 	padding: 0px !important;
+}
+
+.card-desktop-comece {
+	border-radius: 20px;
+	color: var(--font-color);
+	font-family: 'open sans';
+	padding: 1em !important;
+}
+
+.card-title-desktop {
+	font-size: 2em;
+	font-weight: 600;
+
+}
+
+.card-text-desktop {
+	font-size: 1.3em !important;
+}
+
+.margin-left {
+	margin-left: .7%;
 }
 
 
@@ -176,6 +256,31 @@ h4 {
 
 .card-border {
 	padding: 1em;
+	max-height: 200px;
+}
+
+.cursos-margin {
+	margin-bottom: .8em;
+}
+
+.border-card {
+	border-radius: 20px;	
+}
+
+.card-image {
+	max-height: 300px;
+	padding: 1.5em;
+}
+
+.letter-title {
+	color: var(--font-color);
+	font-size: 1.8em;
+
+}
+
+.letter-text {
+	/* color: var(--font-color); */
+	line-height: 1.6;
 }
 
 
@@ -183,23 +288,21 @@ h4 {
 	padding: .5em;
 }
 
-.card-outros {
+.card-border-radius {
 	
 	border-radius: 20px;
 }
 
-.card-empresa {
-	border-radius: 20px;
-}
-
-.card-online {
-	
-	border-radius: 20px;
-}
 
 .comece-body {
 	font-size: 1.2em;
 	padding-bottom: 1em;
+}
+
+.image-svg-body {
+	height: 500px;
+	position: relative;
+	right: 14%;
 }
 
 
@@ -229,15 +332,15 @@ h4 {
 
 .btn-primary1 {
 	background-color: white !important;
-	border-color: #25c8e7;
-	color: #25c8e7;
+	border-color: var(--theme-color);
+	color: var(--theme-color);
 	font-weight: bold;
 	border-radius: 25px;
 }
 
 .btn-primary {
-	background-color: #25c8e7 !important;
-	border-color: #25c8e7;
+	border-color: var(--theme-color);
+	color: white;
 }
 
 .btn-primary:hover {
@@ -425,56 +528,51 @@ h5 {
 		margin-top: 3em;
 	}
 
+	
+	h1 {
+		text-align: left;
+		font-size: 5em;
+	}
+
+	
+	.image-woman {
+		padding-top: 3em;
+	}
+
+	.viva-header {
+		font-size: 1.1em;
+		font-weight: 300;
+		vertical-align: middle;
+		padding-top: 2px;
+	}
+
+	.padding-header {
+		padding-bottom: 0px;
+	}
+
+	.image-header {
+		width: 42px;
+		height: 42px;
+	}
+
+	.sumir-min {
+		display: none;
+	}
+
+	.image-happy {
+		overflow:  visible;
+	}
+
 }
 
-@media (min-width: 632px) {
-
-
-}
-
-
-@media (max-width: 768px) {
-
-
-
-}
-
-@media (max-width: 576px) {
-
-
-
-}
-
-/*
-*
-*
-*  CURSOS 
-*
-*
-*/
-
-
-.woman-img {
-	/* max-width: 100%; */
-
-}
-
-
-
-
-
-
-
-
-
-.card, .card-header {
-}
 
 @media (max-width: 992px) {
 
 	.sumir {
 		display: none;
 	}
+
+
 }
 
 
