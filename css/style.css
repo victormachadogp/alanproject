@@ -88,6 +88,13 @@ body {
 /*Main*/
 
 
+.secondary-image {
+	margin: 0; 
+	padding: 0; 
+	position: relative;
+	z-index: 1;
+}
+
 .decoration {
 	color: var(--font-color) !important;
 	
@@ -101,7 +108,9 @@ body {
 	background-color: white;
 }
 
-
+h2 {
+	font-size: 1.5rem;
+}
 
 
 
@@ -167,6 +176,7 @@ h4 {
 	flex-wrap: wrap;
 	padding-top: 4em;
 	padding-bottom: 4em;
+	z-index: 10;
 
 }
 
@@ -251,8 +261,14 @@ align-title {
 	font-weight: 600;
 }
 
+
+.secondary-image-item {
+	bottom: 0;
+	 position: absolute;
+}
+
 .card-text {
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 .card-border {
@@ -266,6 +282,7 @@ align-title {
 
 .border-card {
 	border-radius: 20px;	
+	box-shadow: 0px 3px 20px #333;
 }
 
 .card-image {
@@ -289,8 +306,8 @@ align-title {
 	padding: .5em;
 }
 
-.card-border-radius {
-	
+.card-style {
+	box-shadow: 0px 3px 20px #686868;
 	border-radius: 20px;
 }
 
@@ -411,9 +428,6 @@ hr {
 	bottom: 50px;
 }
 
-.card-comece {
-	box-shadow: 0px 5px 10px #333;
-}
 
 
 
@@ -425,8 +439,13 @@ footer {
 	
 	background-repeat: no-repeat;
 	padding-top: 2rem;
-	padding: 1em;
-	margin-bottom: 1em;
+	padding: 1.5em;
+
+}
+
+.footer-desktop {
+	margin-top: 3.5em;
+	
 }
 
 
@@ -473,7 +492,8 @@ footer {
 }
 
 .fa-whatsapp {
-	color: #25d366;
+	/* color: #25d366; */
+	color: var(--theme-color);
 	font-size: 2.3em;
 	margin-right: .3em;
 	margin-top: .2em;
@@ -482,20 +502,24 @@ footer {
 .fa-at {
 	color: #ea4335;
 	font-size: 2em;
-	
+	color: var(--theme-color);
 	margin-right: .3em;
 }
 
 
+
+
 .fa-facebook {
-	color: #3c5a99;
+	color: var(--theme-color);
+	/* color: #3c5a99; */
 	font-size: 2em;
 	margin-right: .3em;
 	margin-top: .2em;
 }
 
 .fa-instagram {
-	color: #8a3ab9;
+	color: var(--theme-color);
+	/* color: #8a3ab9; */
 	font-size: 2em;
 	margin-right: .3em;
 	margin-top: .2em;
@@ -516,10 +540,19 @@ h5 {
 	/* font-weight: ;S */
 }
 
+/* Media Queries */
+
+@media (min-width: 480px) {
+	.secondary-image {
+		max-width: 50% !important;
+	}
+}
 
 
-@media (max-width: 992px) {
-	
+@media (min-width: 620px) {
+	.secondary-image {
+		max-width: 35% !important;
+	}
 }
 
 
@@ -565,6 +598,19 @@ h5 {
 		overflow:  visible;
 	}
 
+	.text-position {
+		margin-left: 40%;
+		padding-top: 2em;
+	}
+
+	.contacts {
+		
+	}
+
+	.at {
+		margin-right: 0px;
+	}
+
 }
 
 
@@ -573,6 +619,40 @@ h5 {
 	.sumir {
 		display: none;
 	}
+
+
+
+	.secondary-image {
+		max-width: 80%;
+		z-index: 1;
+		opacity: 0.3;
+
+	}
+
+
+	.paragraph-desktop {
+		font-size: 1em;
+		margin-left: 0px;
+	}
+
+	.item-2 {
+			padding: .6em;
+			padding-left: 1em;
+			padding-right: 1em;
+			font-size: 1em;
+			border-radius: 30px;
+			align-self: center;
+			margin-left: 1em;
+	}
+
+	.keep-2 {
+		z-index: 10;
+		justify-content: center;
+		
+		
+		
+	}
+
 
 
 }
@@ -589,6 +669,31 @@ h5 {
 form {
 	margin-bottom: 2em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
 
 
 
