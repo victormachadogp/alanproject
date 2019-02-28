@@ -87,6 +87,10 @@ body {
 
 /*Main*/
 
+h5 {
+	color: var(--font-color);
+	font-size: 1.8em;
+}
 
 .secondary-image {
 	margin: 0; 
@@ -150,7 +154,7 @@ h4 {
 	left: 15%;
 	transform: translate(-10%, -10%);
 	font-family: 'open sans';
-	/* line-height: 1.9; */
+	
 }
 
 .paragraph-desktop {
@@ -437,8 +441,8 @@ footer {
 	background-image: url('../images/footer-shape.svg');
 	
 	background-repeat: no-repeat;
-	padding-top: 2rem;
-	padding: 1.5em;
+	padding-top: .6rem;
+	padding-bottom: 4.5em;
 
 }
 
@@ -748,28 +752,90 @@ h5 {
 	width: 100px;
 }
 
+
 .transform-card {
 	margin-top: 9%;
 	border-radius: 15px;
 	padding: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: .2em;
+	margin-right: .2em;
+	box-shadow: 0px 3px 20px #333;
+	margin-bottom: 2em;
+	padding-bottom: 1.8em !important;
 }
 
 .transform-card-margin {
 	margin-top: 3%;
 	border-radius: 15px;
 	padding: 1em;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: .2em;
+	margin-right: .2em;
 	vertical-align: text-bottom;
+	box-shadow: 0px 3px 20px #333;
+	margin-bottom: 2em;
+	padding-bottom: 1.8em !important;
+}
+
+@media (max-width: 768px) {
+	h5 {
+		text-align: center;
+	}
+
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+	h1 {
+		text-align: center;
+		margin-top: 0.5em;
+		margin-bottom: 2.5em;
+	}
+	
+	
+	.desktop-man {
+		height: 132px;
+		position: relative;
+		top: 70px;
+	}
+
+
+}
+
+
+@media (min-width: 992px) {
+
+	#card-height {
+		max-height: 165px !important;
+		margin-top: 1em;
+		
+
+	}
+
+}
+
+
+@media (min-width: 577px) and (max-width: 992px) {
+
+	
+	
+	.desktop-man {
+		height: 210px;
+		position: relative;
+		top: 0px;
+		left: 131px;
+	}
+
+	
+
+
 }
 
 @media (max-width: 992px) {
 
-	.desktop-man {
-		display: none;
-	}
 
 	.card-flex {
 		flex-direction: column;
@@ -788,17 +854,19 @@ h5 {
 	.padding-card {
 		margin-bottom: 2.5em;
 	}
+	
+	.card-padding {
+		padding: 1.5em;
+		padding-bottom: 2em;
+	}
+
+	.transform-card {
+		margin-top: 12%;
+	}
 
 
 
 }
-
-
-
-
-
-
-
 
 
 
