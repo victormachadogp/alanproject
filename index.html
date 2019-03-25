@@ -23,7 +23,7 @@
     <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container-fluid padding-header">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/open-book.svg" class="d-inline-block align-top image-header" alt="Logo">
                     <span class="text-white viva-header line-header">VIVA <span class="bolder-text">SEM
                             LEGENDA</span></span>
@@ -38,12 +38,12 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="cursos.html">CURSOS</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="contatos.html">CONTATOS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">SOBRE NÓS</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">PÁGINA INICIAL</a>
                         </li>
@@ -118,7 +118,9 @@
     
         <div class="container-fluid">
             <div class="card-deck cursos-margin">
+                
                 <div class="card border-card">
+                        <a href="cursos.html" class="text-decoration">
                     <img src="images/desktop-man.svg" class="card-img-top card-image" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center letter-title">Aulas Online</h5>
@@ -130,7 +132,10 @@
                         </p>
                     </div>
                 </div>
+                </a>
+                
                 <div class="card border-card">
+                        <a href="cursos.html" class="text-decoration">
                     <img src="images/deal.svg" class="card-img-top card-image" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center letter-title">Aula para Empresas</h5>
@@ -140,13 +145,17 @@
                             empresas. </p>
                     </div>
                 </div>
+            </a>
+            
                 <div class="card border-card">
+                        <a href="cursos.html" class="text-decoration">
                     <img src="images/man-computer.svg" class="card-img-top card-image" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-center letter-title">Aulas On Demand</h5>
                         <p class="card-text letter-text">Nesta modalidade você poderá contratar uma aula no dia e horário que você desejar para tratar do assunto que quiser.</p>
                     </div>
                 </div>
+            </a>    
             </div>
         </div>
 
@@ -170,6 +179,33 @@
             </div>
         </div>
 
+        <!--------------------------------- TRY EMAIL -------------------------------------->
+
+        <div class="container-fluid d-md-none email-container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 offset-lg-4">
+                    <div class="card border-card">
+                        <!-- <h5 class="card-header">Entre em contato</h5> -->
+                        <img class="deal-man" src="images/deal.svg" alt="">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Entre em contato</h5>
+                            <p class="card-text">Tire suas dúvidas sobre nossos cursos oferecidos por meio do nosso email ou Whatsapp.</p>
+                            <a href="mailto:contato@vivasemlegenda.com.br" class="btn btn-primary">Ir para o Email</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="jumbotron text-center">
+                <h5 class="display-4">Entre em contato!</h5>
+                <p class="lead">Tire suas dúvidas sobre nossos cursos oferecidos por meio do nosso email ou Whatsapp.</p>
+                <hr class="my-4">
+                <p>Os professores da Viva Sem Legenda são altamente qualificados. Todos têm
+                        proficiência em Línguas e são certificados pela Universidade de Cambridge.</p>
+                <a class="btn btn-primary btn-lg" href="mailto:contato@vivasemlegenda.com.br" role="button">Ir para o Email</a>
+              </div>
 
 
 
@@ -197,8 +233,7 @@
 
     <footer class="">    
     <div class="container-fluid  footer-desktop">
-        <div class="row">
-        <!-- <div class="container-flex"> -->    
+        <div class="row">    
         <div class="col-md-4 order-viva">
                 <a class="navbar-brand padding-viva" href="index.html">
                         <img class="d-inline-block align-top svg-color-2" src="images/open-book.svg" width="40" height="40"
@@ -209,20 +244,22 @@
         </div>
 
         <div class="col-md-4 order-pagina">
-                <a class="font-color" href="index.html">| Página Inicial</a><br>
-                <a class="font-color" href="cursos.html">| Cursos</a><br>
-                <a class="font-color" href="aboutus.html">| Sobre Nós</a>
+                <a class="font-color d-block" href="index.html">| Página Inicial</a>
+                <a class="font-color d-block" href="cursos.html">| Cursos</a>
         </div>
 
         <div class="col-md-4 text-left order-contatos">
                 <div class="col-12 text-nowrap">
-                    <i class="fas fa-at line at"></i>
-                    <span class="">contato@vivasemlegenda.com.br</span>
+                    <a class="email-footer" href="mailto:contato@vivasemlegenda.com.br">
+                        <i class="fas fa-at line at"></i>
+                        <span class="">contato@vivasemlegenda.com.br</span>
+                    </a>
                 </div>
                 <div class="col-12">
-                    <a href="https://instagram.com/vivasemlegenda?utm_source=ig_profile_share&igshid=3m5uy8kxdpss"
-                            target="_blank"><img class="instagram" src="images/instagram.svg"></a>
-                        <span>Instagram</span>
+                    <a class="instagram-tag" href="https://instagram.com/vivasemlegenda?utm_source=ig_profile_share&igshid=3m5uy8kxdpss"
+                            target="_blank"><img class="instagram" src="images/instagram.svg">
+                        <span class="font-color-footer">Instagram</span>
+                    </a>
                 </div>
                 <div class="col-12">
                         <img class="instagram" src="images/whatsapp.svg">
