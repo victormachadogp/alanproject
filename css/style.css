@@ -128,7 +128,7 @@ h2 {
 }
 
 h1 {
-	font-size: 2.4em;
+	/* font-size: 3.8em; */
 	margin: 1em;
 	margin-bottom: 1.5em;
 	font-family: 'open sans';
@@ -394,11 +394,18 @@ align-title {
 	margin-right: 13px;
 	border-radius: 20px; 
 	box-shadow: 0px 3px 20px #333;
-
 }
 
 .btn-1 {
 	margin-bottom: 13px;
+}
+
+.jumbotron {
+	padding-bottom: 45px !important;
+}
+
+.btn-jumbo {
+	margin-top: 15px;
 }
 
 .padding {
@@ -626,7 +633,7 @@ h5 {
 	
 	h1 {
 		text-align: left;
-		font-size: 5em;
+		font-size: 3.8em;
 	}
 
 	
@@ -859,6 +866,7 @@ h5 {
 		text-align: center;
 		margin-top: 0.5em;
 		margin-bottom: 2.5em;
+		font-size: 2em;
 	}
 	
 	
