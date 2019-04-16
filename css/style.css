@@ -289,6 +289,12 @@ align-title {
 	box-shadow: 0px 2px 10px #333;
 }
 
+.demand {
+	border-radius: 20px;	
+	box-shadow: 0px 2px 10px #333;
+	min-height: 220px !important;
+}
+
 .card-image {
 	max-height: 300px;
 	padding: 1.5em;
@@ -383,19 +389,6 @@ align-title {
 	background-color: #e75c25 !important;
 	border-color: #e75c25;
 	color: white;
-}
-
-.jumbotron1 {
-	padding: 1em;
-	border-radius: 0;
-	margin-bottom: 0;
-	background-color: #e9ecef;
-	margin-bottom: 50px;
-	margin-left: 13px;
-	margin-right: 13px;
-	border-radius: 20px; 
-	box-shadow: 0px 2px 10px #333;
-	background-color: white;
 }
 
 .btn-1 {
@@ -557,6 +550,16 @@ footer {
 	text-decoration: none;
 }
 
+.whatsapp-tag {
+	text-decoration: none;
+	color: #212529;
+}
+
+.whatsapp-tag:hover {
+	text-decoration: none;
+	color: #212529;
+}
+
 .font-color-footer {
 	color: #212529;
 	
@@ -590,11 +593,11 @@ h5 {
 /* Media Queries */
 
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
 	.image-svg-body {
 		max-width: 90% !important;
 		position: relative;
-		bottom: 0% !important;
+		bottom: 5% !important;
 
 	}
 
@@ -604,11 +607,62 @@ h5 {
 	}
 }
 
+@media (min-width: 576px) {
+
+	.relative {
+		position: relative;
+	}
+
+	.quote {
+		position: absolute;
+		top: 5% !important;
+		left: 35% !important;
+		font-size: 150px;
+		opacity: 1;
+	}
+
+	.relative-2 {
+		position: relative;
+	}
+
+	.quote-2 {
+		position: absolute;
+		top: 15%;
+		left: 35% !important;
+		font-size: 150px;
+		opacity: 0.8;
+
+	}
+
+	.relative-3 {
+		position: relative;
+	}
+
+	.quote-3 {
+		position: absolute;
+		top: 15%;
+		left: 35% !important;
+		font-size: 150px;
+		opacity: 0.8;
+
+	}
+
+	.card {
+		margin-bottom: 30px !important;
+
+		
+	}
+
+
+}
+
+
 @media (min-width:992px) and (max-width: 1200px) {
 	.card-desktop-comece {
 		padding: 0px !important;
 	}
 }
+
 
 
 
@@ -676,15 +730,27 @@ h5 {
 		padding-top: 2em;
 	}
 
-	.contacts {
-		
-	}
-
 	.at {
 		margin-right: 0px;
 	}
 
+	.border-card {
+		min-height: 220px !important;
+	}
+
+	.demand {
+		padding-bottom: 130px !important;
+	}
+
 }
+
+@media (min-width: 1300px) {
+
+	.demand {
+		padding-bottom: 110px !important;
+	}
+}
+
 
 
 @media (max-width: 992px) {
@@ -778,6 +844,18 @@ h5 {
 
 }
 
+@media (min-width: 576px) and (max-width:992px) {
+
+	.image-svg-body {
+		position: relative;
+		bottom: 29%;
+		left: 0px;
+		height: 280px;
+	}
+
+	
+}
+
 
 
 
@@ -846,6 +924,44 @@ h5 {
 
 }
 
+/* 
+*
+* CLIENTS
+*
+ */
+
+.client-section {
+	background-color: white;
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	padding-bottom: 30px;
+}
+
+.fa-quote-left {
+	font-size: 250px;
+	color: #b2b2b2;
+	opacity: 0.2;
+	/* position: absolute;
+	left: 40%;
+	top: 30%; */
+	overflow: hidden;
+}
+
+.max-width {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.our-clients {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.client-talk {
+	margin-bottom: 10px !important;
+}
+
 
 /*
 *
@@ -903,6 +1019,8 @@ h5 {
 		margin-top: 4.5em;
 	}
 
+	
+
 
 }
 
@@ -923,22 +1041,89 @@ h5 {
 		margin-top: 9em;
 	}
 
-}
+	.fa-quote-left {
+		position: absolute;
+	left: 40%;
+	top: 30%;
 
-@media (max-width: 768px) {
+	}
 
-	.jumbotron {
+	.client-section {
+		position: relative;
+	}
+
+	.quote, .quote-2, .quote-3 {
 		display: none;
-
 	}
 
 }
 
+@media (max-width: 768px) {
+
+	.jumbotron {		
+			padding: 1em;
+			padding-bottom: 30px !important;
+			border-radius: 0;
+			margin-bottom: 0;
+			background-color: #e9ecef;
+			margin-bottom: 50px;
+			margin-left: 13px;
+			margin-right: 13px;
+			border-radius: 20px; 
+			box-shadow: 0px 2px 10px #333;
+			background-color: white;
+		}
+
+		.btn-jumbo {
+			/* margin-top: 0px; */
+		}
+}
+
+
+
 @media (min-width: 768px) {
 
-	.jumbotron1 {
-		display: none;
 
+	.relative {
+		position: relative;
+	}
+
+	.quote {
+		position: absolute;
+		top: 1% !important;
+		left: 40% !important;
+		font-size: 150px;
+		opacity: 1;
+	}
+
+	.relative-2 {
+		position: relative;
+	}
+
+	.quote-2 {
+		position: absolute;
+		top: 15%;
+		left: 40% !important;
+		font-size: 150px;
+		opacity: 0.8;
+
+	}
+
+	.relative-3 {
+		position: relative;
+	}
+
+	.quote-3 {
+		position: absolute;
+		top: 15%;
+		left: 40% !important;
+		font-size: 150px;
+		opacity: 0.8;
+
+	}
+
+	.whatsapp-tag {
+		cursor: default;
 	}
 
 }
@@ -997,6 +1182,52 @@ h5 {
 
 	.item {
 		margin-top: 1em;
+	}
+
+	.quote-big {
+		display: none;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.quote {
+		position: absolute;
+		top: 15%;
+		left: 30%;
+		font-size: 150px;
+		opacity: 0.1;
+	}
+
+	.relative-2 {
+		position: relative;
+	}
+
+	.quote-2 {
+		position: absolute;
+		top: 15%;
+		left: 30%;
+		font-size: 150px;
+		opacity: 0.1;
+
+	}
+
+	.relative-3 {
+		position: relative;
+	}
+
+	.quote-3 {
+		position: absolute;
+		top: 15%;
+		left: 30%;
+		font-size: 150px;
+		opacity: 0.1;
+
+	}
+
+	.client-section {
+		margin-bottom: 40px;
 	}
 
 	
