@@ -1126,6 +1126,10 @@ h5 {
 		cursor: default;
 	}
 
+	.cursor {
+		cursor: text;
+	}
+
 }
 
 
